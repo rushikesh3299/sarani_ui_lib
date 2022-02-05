@@ -1,16 +1,14 @@
 @import url("./Common_CSS/base.css");
 
 body{    
-    background: #f3f4f6;
+    background: var(--bg-white);
 }
 
 .container{
     max-width: 800px;
-    margin: auto;
 }
 
 .title{
-    font-weight: 900;
     text-decoration: underline;
     transition: all .2s ease-in-out;
 }
@@ -44,12 +42,11 @@ body{
 }
 
 .menu a{
-    color: #5A5A5A;
-    font-weight: bold;
+    color: var(--text-color-light);
 }
 
 .menu a:hover{
-    color: #000;
+    color: var(--text-color);
 }
 
 .mid-section{
@@ -60,33 +57,13 @@ body{
     text-align: center;
 }
 
-.mid-section-head{
-    padding: 1rem;
-    font-size: 56px;
-    font-weight: 900;
-}
-
-@media screen and (max-width: 450px){
-    .mid-section-head{
-        font-size: 40px;
-    }
-}
-
-.mid-section-text{
-    font-size: 1.2rem;
-    padding: 1rem;
-}
-
-.mid-section p{
-    line-height: 2rem;;
-}
 
 .mid-section a{
-    color: #fff;
+    color: var(--text-white);
     margin: 1rem auto;
     width: 120px;
     padding: 1rem;
-    background: #6366F1;
+    background: var(--bg-color);
     border-radius: 5px;
     box-shadow: .5rem .5rem 2rem gray;
 }
