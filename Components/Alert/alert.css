@@ -1,2 +1,24 @@
 @import url("/Common_CSS/base.css");
 
+.alert{
+    padding: 1rem;
+    margin:1rem;
+    color:var(--text-white);
+    border-radius: .5rem;
+}
+
+.alert-primary{
+    background: var(--color-primary);
+}
+
+.alert-error{
+    background: var(--color-error);
+}
+
+.alert-success{
+    background: var(--color-success);
+}
+
+.alert-warning{
+    background: var(--color-warning);
+}
