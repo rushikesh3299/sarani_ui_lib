@@ -1,0 +1,81 @@
+@import url("./component_sec.css");
+
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    box-shadow: 0 0 1rem .5rem rgb(0 0 0 / 5%);
+    background: var(--bg-white);
+}
+
+.nav-left{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 600px){
+    .nav-right{
+        display: none;
+    }
+    .nav-left{
+        margin-left: 0.5rem;
+        gap: 1rem;
+    }
+}
+
+
+.side-bar{
+    display: none;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top:4rem;
+    overflow: auto;
+    background: var(--bg-white);
+}
+
+.toggle-side-bar{
+    display: block;
+}
+
+.side-bar a{
+    display: block;
+}
+
+.side-bar a:hover{
+    background: var(--text-white);
+}
+
+.footer{
+    text-align: center;
+    background: var(--bg-white);
+}
+
+.footer-intro{
+    padding: 1rem;
+}
+
+.footer-icon{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-copyright{
+    padding: 1rem;
+}
