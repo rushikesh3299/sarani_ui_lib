@@ -1,0 +1,51 @@
+.component-section{
+    max-width: 900px;
+    margin: 5rem auto auto;
+    padding: 1rem;
+}
+
+.component-title{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.component-subtitle{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.component-general{
+    font-size: 1.3rem;
+    padding: .5rem 1rem;
+}
+
+.component-specific{
+    padding: 1rem;
+}
+
+.component-demo-box{
+    border: 2px solid #bababa;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.code-snippet{
+    padding: 1rem .5rem;
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    overflow: auto;
+}
+
+.avatar-box{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
