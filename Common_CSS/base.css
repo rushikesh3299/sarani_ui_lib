@@ -30,6 +30,6 @@ html
 	scroll-behavior: smooth;
 }
 
-.a--reset{
+a{
 	text-decoration: none;
 }
