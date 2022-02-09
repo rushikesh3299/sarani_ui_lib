@@ -1,2 +1,69 @@
 @import url("/Common_CSS/base.css");
+@import url("/Components/Avatar/avatar.css");
 
+.badge-container{
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    color: var(--text-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:1px solid var(--bg-white);
+}
+
+.badge-primary .badge{
+    background: var(--color-primary);
+}
+
+.badge-online .badge{
+    background: var(--color-success);
+}
+
+.badge-offline .badge{
+    background: var(--text-color-light);
+}
+
+.badge-busy .badge{
+    background: var(--color-error);
+}
+
+.badge-icon-s .badge{
+    font-size: .7rem;
+    width: 1rem;
+    height: 1rem;
+    right:-0.5rem;
+    top:-0.5rem;
+}
+
+.badge-icon-l .badge{
+    font-size: .7rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    right:-0.7rem;
+    top:-0.7rem;
+}
+
+.badge-img-s .badge{
+    width: 1rem;
+    height: 1rem;
+    right:.2rem;
+    bottom:.2rem;
+}
+
+.badge-img-m .badge{
+    width: 1.4rem;
+    height: 1.4rem;
+    right:.35rem;
+    bottom:.35rem;
+}
+
+.badge-img-l .badge{
+    width: 1.8rem;
+    height: 1.8rem;
+    right:.6rem;
+    bottom:.6rem;
+}
