@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="avatar.css">
-    <link rel="stylesheet" href="/Docsite_CSS/style.css">
+    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="/Docsite_CSS/structure.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Sarani UI</title>
 </head>
@@ -14,7 +14,7 @@
         <div class="nav-bar p10">
             <div class="nav-left">
                 <i class="fas fa-bars" id="menu"></i>
-                <div class="nav-header">सरणी UI</div>
+                <div class="nav-header fw900">सरणी UI</div>
             </div>
             <div class="nav-right">
                 <a href="#"><i class="fab fa-github"></i></a>
@@ -22,10 +22,56 @@
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
-        <div class="side-bar">
-            
+        <div class="side-bar pb40">
+            <a href="/Components/Avatar/avatar.html" class=" p20">Avatar</a>
+            <a href="/Components/Alert/alert.html" class=" p20">Alert</a>
+            <a href="/Components/Badge/badge.html" class=" p20">Badge</a>
+            <a href="/Components/Button/button.html" class=" p20">Button</a>
+            <a href="/Components/Card/card.html" class=" p20">Card</a>
+            <a href="/Components/Image/image.html" class=" p20">Image</a>
+            <a href="/Components/Input/input.html" class=" p20">Input</a>
         </div>
         <div class="component-section">
+            <div class="component-title">Responsive Image</div>
+            <p class="component-general">Images can be made responsive to fit their parent's width. Image are the core of any social media or e-commerce website so, making images responsive is very much needed.</p>
+            <div class="component-subtitle">Examples of Image</div>
+            <p class="component-specific">Images used on all the modern age websites are pretty much responsive. Images can be square or cut in round shape. Below you can see standered image with 150px width.</p>
+            <div class="component-demo-box">
+                <div class="img-box">
+                    <img class="img150" src="/Assets/images/sampleAvatar3.png" alt="avatar" >
+                    <img class="img150 img-round" src="/Assets/images/sampleAvatar4.png" alt="avatar" >
+                </div>
+            </div>
+            <div class="code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed/isuTCKbl8Wbcz7gmbPq2"
+                    style="width: 738px; height: 111px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <p class="component-specific">Below shown is responsive image you can observe it by varying your browser width. The image will adjust its aspect ratio & will get stretched & reduced automatically as per available width.</p>
+            <div class="component-demo-box">
+                <div class="img-box">
+                    <img class="img-responsive" src="/Assets/images/resp-img.png" alt="avatar" >
+                </div>
+            </div>
+            <div class="code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed/FoFYrAq2ueZxa88djr2U"
+                    style="width: 738px; height: 111px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <p class="component-specific">Use the code above according to your need you can use fixed width image or you can use responsive image.</p>
+        </div>
+        <div class="footer">
+            <div class="footer-intro">Made with <i class="fas fa-heart"></i> by <a class=" td-ul" href="#">Rushikesh</a> </div>
+            <div class="footer-icon">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-copyright">@2021 सरणी UI</div>
         </div>
     </div>
     <script src="/Docsite_JS/index.js"></script>
