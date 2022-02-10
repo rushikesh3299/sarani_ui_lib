@@ -42,7 +42,7 @@ iframe{
     overflow: auto;
 }
 
-.avatar-box, .badge-box, .button-box{
+.avatar-box, .badge-box, .button-box, .img-box{
     display: flex;
     gap: 3rem;
     align-items: center;
