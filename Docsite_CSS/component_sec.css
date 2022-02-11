@@ -49,3 +49,7 @@ iframe{
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.input-box div{
+    padding: 1rem;
+}
