@@ -11,6 +11,7 @@
     font-size: 1.5rem;
     box-shadow: 0 0 1rem .5rem rgb(0 0 0 / 5%);
     background: var(--bg-white);
+    z-index: 1;
 }
 
 .nav-left{
@@ -46,6 +47,7 @@
     top:4rem;
     overflow: auto;
     background: var(--bg-white);
+    z-index: 1;
 }
 
 .toggle-side-bar{
