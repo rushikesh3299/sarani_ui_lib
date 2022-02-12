@@ -6,9 +6,9 @@
     margin: 1rem;
     cursor: pointer;
     border-radius: 10px;
-    border-bottom: 4px solid lightgray;
-    border-right: 2px solid lightgray;
-    border-left: 1px solid lightgray;
+    border-bottom: 4px solid var(--text-color-light);
+    border-right: 2px solid var(--text-color-light);
+    border-left: 1px solid var(--text-color-light);
     transition: transform .2s;
     position: relative;
 }
@@ -16,7 +16,7 @@
 .badge-card::before{
   position:absolute;
   content:"";
-  background: #3949ab;
+  background: var(--color-primary);
   width:1.6rem;
   height:1.6rem;
   transform:rotate(45deg);
@@ -28,8 +28,8 @@
 .badge-card::after{
   position:absolute;
   content:"Trending";
-  color:white;
-  background: #3949ab;
+  color:var(--text-white);
+  background: var(--color-primary);
   width:6rem;
   height:1.6rem;
   top:1rem;
@@ -82,14 +82,14 @@
 }
 
 .badge-card .card-action i:hover{
-    background-color: blanchedalmond;
+    background-color: var(--bg-white);
     border-radius: 50%;
 }
 
 /*Card with Overlay-text*/
 .overlay-card{
     width:300px;
-    box-shadow: 5px 2px 15px gray;
+    box-shadow: 5px 2px 15px var(--text-color-light);
     border-radius:10px;
 }
   
@@ -111,13 +111,13 @@
 }
   
 .overlay-card .card-title{
-    color:white;    
+    color:var(--text-white);    
     font-size:1.8rem;
     font-weight:bold;
 }
   
 .overlay-card .card-author{
-    color:white;
+    color:var(--text-white);
     margin-top:.2rem;
 }
   
@@ -135,12 +135,12 @@
 }
   
 .overlay-card .card-action i:hover{
-    background:#f0f0f0;
+    background:var(--bg-white);
     border-radius:50%;
 }
   
 .overlay-card .card-action i:focus{
-    background:#f0f0f0;
+    background:var(--bg-white);
 }
   
 
@@ -151,8 +151,8 @@
   
 .hz-card .card-container{
     width:100%;
-    border:1px solid black;
-    box-shadow: 2px 4px #888888;
+    border:1px solid var(--text-color);
+    box-shadow: 2px 4px var(--text-color-light);
     border-radius:10px;
 }
   
@@ -185,7 +185,7 @@
 }
   
 .hz-card .card-footer i:hover{
-    background:#f0f0f0;
+    background:var(--bg-white);
     border-radius:50%;
 }
 
@@ -195,7 +195,7 @@
     width:300px;
     height:400px;
     padding:1rem;
-    box-shadow: 5px 2px 15px gray;
+    box-shadow: 5px 2px 15px var(--text-color-light);
     border-radius:10px;
     position:relative;
 }
