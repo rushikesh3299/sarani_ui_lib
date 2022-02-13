@@ -4,7 +4,7 @@
     padding:1rem;
     border-radius:10px;
     background: var(--color-warning);
-    color:var(--text-white)
+    color:var(--text-white);
     display:inline-flex;
     gap:1.2rem;
     align-items:center;
