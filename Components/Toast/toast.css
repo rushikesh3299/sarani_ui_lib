@@ -1,0 +1,33 @@
+@import url("/Common_CSS/base.css");
+
+.toast{
+    padding:1rem;
+    border-radius:10px;
+    background: var(--color-warning);
+    color:#fff;
+    display:inline-flex;
+    gap:1.2rem;
+    align-items:center;
+  }
+  
+  .toast a{
+    text-decoration:none;
+    color:var(--color-primary);
+  }
+  
+  .toast button{
+    background:#333;
+    border:none;
+  }
+  
+  .toast button i{
+    color:var(--text-white);
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 350px) {
+    .toast{
+      font-size:.9rem;
+      gap:.9rem;
+    }
+  }
