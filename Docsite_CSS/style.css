@@ -74,6 +74,11 @@ body{
 }
 
 .howto-use{
-    padding-top: 1rem;
-    border-top: 2px solid var(--text-color);
+    padding: 1rem;
+    border: 2px solid var(--text-color);
+    border-radius: .5rem;
+}
+
+.link-iframe{
+    overflow: auto;
 }

@@ -36,6 +36,7 @@
     padding: 1rem .5rem;
     display: flex;
     justify-content: center;
+    overflow: auto;
 }
 
 .code-snippet-multiple{
