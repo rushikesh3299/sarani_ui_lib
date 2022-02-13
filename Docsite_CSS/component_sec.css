@@ -46,7 +46,7 @@ iframe{
     overflow: auto;
 }
 
-.avatar-box, .badge-box, .button-box, .img-box, .card-box{
+.avatar-box, .badge-box, .button-box, .img-box, .card-box, .rating-box{
     display: flex;
     gap: 3rem;
     align-items: center;
