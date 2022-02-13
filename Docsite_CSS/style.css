@@ -72,3 +72,8 @@ body{
 .mid-section a:hover{
     opacity: .9;
 }
+
+.howto-use{
+    padding-top: 1rem;
+    border-top: 2px solid var(--text-color);
+}
