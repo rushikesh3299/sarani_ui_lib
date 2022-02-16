@@ -11,10 +11,11 @@
 	--bg-color-light2: #C4B5FD;
 	--bg-white: #f3f4f6;
 
-	--color-primary: #6366F1;
+	--color-primary: #00AAFF;
 	--color-success: #4CAF50;
 	--color-error: #F44336;
 	--color-warning: #FF9800;
+	--color-pure-white:#fff;
 }
 
 * {
