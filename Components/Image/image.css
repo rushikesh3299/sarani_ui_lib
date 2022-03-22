@@ -1,19 +1,16 @@
-@import url("/Common_CSS/base.css");
-
-.img150{
-    width: 150px;
+.img150 {
+  width: 150px;
 }
 
-.img200{
-    width: 150px;
+.img200 {
+  width: 150px;
 }
 
-.img-responsive{
-    width: 100%;
-    height: auto;
+.img-responsive {
+  width: 100%;
+  height: auto;
 }
 
-.img-round{
-    border-radius: 50%;
+.img-round {
+  border-radius: 50%;
 }
-

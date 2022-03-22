@@ -1,17 +1,17 @@
 @import url("/Common_CSS/base.css");
 
-.avatar-s{
-    width: 50px;
+.avatar-s {
+  width: 50px;
 }
 
-.avatar-m{
-    width: 100px;
+.avatar-m {
+  width: 100px;
 }
 
-.avatar-l{
-    width: 150px;
+.avatar-l {
+  width: 150px;
 }
 
-.avatar-xl{
-    width: 200px;
+.avatar-xl {
+  width: 200px;
 }

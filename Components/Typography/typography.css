@@ -1,5 +1,3 @@
-@import url("/Common_CSS/base.css");
-
-.gray-text{
-    color: var(--text-color-light);
+.gray-text {
+  color: var(--text-color-light);
 }
