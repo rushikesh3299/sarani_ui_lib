@@ -3,9 +3,12 @@
   gap: 1rem;
 }
 
-.grid_50_50,
-.grid_66_33 {
+.grid_50_50 {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.grid_66_33 {
+  grid-template-columns: 2fr 1fr;
 }
 
 @media screen and (max-width: 550px) {
