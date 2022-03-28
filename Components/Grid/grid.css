@@ -1,0 +1,26 @@
+.grid-container {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid_50_50,
+.grid_66_33 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 550px) {
+  .grid_50_50,
+  .grid_66_33 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid_33_33_33 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 750px) {
+  .grid_33_33_33 {
+    grid-template-columns: 1fr;
+  }
+}
