@@ -1,0 +1,43 @@
+.modal-open {
+  cursor: pointer;
+}
+
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: var(--overlay-bg);
+  z-index: 1;
+}
+
+.modal-container {
+  background: var(--bg-white);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+
+.modal-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-close {
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 0.25rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.display-modal {
+  display: block;
+}
