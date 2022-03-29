@@ -1,0 +1,48 @@
+.square-list {
+  list-style-type: square;
+}
+
+.circle-list {
+  list-style-type: circle;
+}
+
+.unstyled-list {
+  list-style-type: none;
+}
+
+.alpha-list {
+  list-style-type: lower-alpha;
+}
+
+.roman-list {
+  list-style-type: lower-roman;
+}
+
+.notification-list {
+  list-style-type: none;
+  width: 50%;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 850px) {
+  .notification-list {
+    width: 90%;
+  }
+}
+
+.notification-list li {
+  padding: 0.25rem;
+  margin: 0.25rem;
+  border-radius: 0.5rem;
+  background-color: var(--bg-white);
+  display: flex;
+  gap: 2rem;
+}
+
+.notification-list img {
+  margin-left: 0.5rem;
+}
+
+.notification-list-text :nth-child(2) {
+  color: var(--text-color-light);
+}
